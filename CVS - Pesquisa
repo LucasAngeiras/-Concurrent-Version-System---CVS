@@ -1,3 +1,11 @@
   O CVS, ou Concurrent Version System (Sistema de Versões Concorrentes) é um sistema de contrle de versão que 
 permite que se trabalhe com diversas versões de arquivos organizados em um diretório e localizados local ou 
 remotamente, mantendo-se suas versões antigas e os logsde quem e quando manipulou os arquivos.
+
+Vários clientes podem editar cópias do mesmo projeto de maneira concorrente. Quando eles confirmam suas alterações, 
+o servidor tenta fazer uma fusão delas. Se isso não for possível o servidor apenas executa a primeira alteração e 
+informa ao responsável pela segunda alteração que houve conflito, e que é necessário uma intervenção humana. Se a 
+validação da alteração for bem sucedida, o número de versão de cada cliente arquivo envolvido é incrementado, 
+e o servidor CVS escreve uma linha de observação (fornecida pelo usuário), a data e o autor das alterações em 
+seus arquivos de log.
+Clientes 
